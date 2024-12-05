@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37BFC9"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/BgRect"
+        android:layout_width="381dp"
+        android:layout_height="275dp"
+        android:background="@drawable/rectangle"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="440dp"></ImageView>
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbtn"
+        android:text="Login"
+        android:textColor="#37BFC9"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <TextView
+        android:id="@+id/SpotLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Spot"
+        android:textColor="#F3FFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <TextView
+        android:id="@+id/FinderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Finder"
+        android:textColor="#F3FFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <TextView
+        android:id="@+id/SloganLabel"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:text="In a rush? Never struggle with finding parking again!"
+        android:textColor="#F3FFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:background="@drawable/borderbtn"
+        android:text="Sign Up"
+        android:textColor="#F3FFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
