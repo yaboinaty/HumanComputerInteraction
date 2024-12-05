@@ -14,7 +14,7 @@
         android:layout_height="275dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="81dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="14dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,6 +52,7 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/FinderLabel"
         app:layout_constraintEnd_toStartOf="@+id/FinderLabel"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="@+id/BgRect" />
 
     <TextView
@@ -59,14 +60,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        android:layout_marginEnd="172dp"
+        android:layout_marginEnd="176dp"
         android:fontFamily="sans-serif-black"
         android:text="Finder"
         android:textColor="#F3FFFF"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/SloganLabel"
         app:layout_constraintEnd_toEndOf="@+id/BgRect"
-        app:layout_constraintTop_toTopOf="@+id/BgRect" />
+        app:layout_constraintTop_toTopOf="@+id/BgRect"
+        app:layout_constraintVertical_bias="0.571" />
 
     <TextView
         android:id="@+id/SloganLabel"
@@ -103,12 +105,13 @@
         android:layout_width="287dp"
         android:layout_height="284dp"
         android:layout_marginStart="62dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="62dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Logo" />
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
