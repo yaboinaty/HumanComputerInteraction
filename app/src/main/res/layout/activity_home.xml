@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bannerRect"
+        android:layout_width="445dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/rectangle"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <ImageView
+        android:id="@+id/bgRect"
+        android:layout_width="458dp"
+        android:layout_height="238dp"
+        app:srcCompat="@drawable/rectangle"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <ImageView
+        android:id="@+id/mapImg"
+        android:layout_width="469dp"
+        android:layout_height="757dp"
+        app:srcCompat="@drawable/map2"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+    <TextView
+        android:id="@+id/schoolLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Florida Polytechnic University"
+        android:textColor="#37BFC9"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="83dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/Logo"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/spotLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Spot"
+        android:textColor="#F3FFFF"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/finderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Finder"
+        android:textColor="#F3FFFF"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
