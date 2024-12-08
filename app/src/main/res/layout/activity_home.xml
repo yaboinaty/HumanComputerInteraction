@@ -41,23 +41,12 @@
         tools:layout_editor_absoluteY="184dp" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/logoImg"
         android:layout_width="83dp"
         android:layout_height="96dp"
         app:srcCompat="@drawable/Logo"
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="34dp" />
-
-    <TextView
-        android:id="@+id/spotLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="Spot"
-        android:textColor="#F3FFFF"
-        android:textSize="45sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="53dp" />
 
     <TextView
         android:id="@+id/finderLabel"
@@ -67,7 +56,212 @@
         android:text="Finder"
         android:textColor="#F3FFFF"
         android:textSize="45sp"
-        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteX="167dp"
         tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/spotLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Spot"
+        android:textColor="#F3FFFF"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/lot5"
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <ImageView
+        android:id="@+id/lot3"
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <ImageView
+        android:id="@+id/lot10"
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <ImageView
+        android:id="@+id/lot4"
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <ImageView
+        android:id="@+id/lot6"
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <ImageView
+        android:id="@+id/lot8"
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/fourNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="4"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/sixNum"
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/tenNum"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/eightNum"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/fiveNum"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:id="@+id/threeNum"
+        android:layout_width="37dp"
+        android:layout_height="34dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <ImageView
+        android:id="@+id/bgNoAvail"
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/bgrect"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <ImageView
+        android:id="@+id/bgLimAvail"
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/bgrect"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <ImageView
+        android:id="@+id/bgGoodAvail"
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/bgrect"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <ImageView
+        android:id="@+id/noAvailCir"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:id="@+id/limAvailCir"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <ImageView
+        android:id="@+id/goodAvailCir"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <TextView
+        android:id="@+id/noAvailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Good Availability"
+        android:textColor="#F3FFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <TextView
+        android:id="@+id/noAvailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="No Availability"
+        android:textColor="#F3FFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:id="@+id/noAvailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Limited Availability"
+        android:textColor="#F3FFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="570dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

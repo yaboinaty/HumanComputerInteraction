@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bannerImg"
+        android:layout_width="498dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/blueroundbtn"
+        tools:layout_editor_absoluteX="-44dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/bannerImg"
+        android:layout_width="498dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/blueroundbtn"
+        tools:layout_editor_absoluteX="-44dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <ImageView
+        android:id="@+id/backArrowImg"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/arrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/finderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Finder"
+        android:textColor="#F3FFFF"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/spotLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Spot"
+        android:textColor="#F3FFFF"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:id="@+id/logoImg"
+        android:layout_width="83dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/Logo"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/lotLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lot Number"
+        android:textColor="#37BFC9"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/lineLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="__________________________"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
