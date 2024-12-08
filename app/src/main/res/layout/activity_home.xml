@@ -6,262 +6,420 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/bannerRect"
-        android:layout_width="445dp"
-        android:layout_height="96dp"
-        app:srcCompat="@drawable/rectangle"
-        tools:layout_editor_absoluteX="-21dp"
-        tools:layout_editor_absoluteY="34dp" />
-
-    <ImageView
-        android:id="@+id/bgRect"
-        android:layout_width="458dp"
-        android:layout_height="238dp"
-        app:srcCompat="@drawable/rectangle"
-        tools:layout_editor_absoluteX="-18dp"
-        tools:layout_editor_absoluteY="448dp" />
-
-    <ImageView
         android:id="@+id/mapImg"
         android:layout_width="469dp"
         android:layout_height="757dp"
-        app:srcCompat="@drawable/map2"
-        tools:layout_editor_absoluteX="-21dp"
-        tools:layout_editor_absoluteY="-13dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map2" />
+
+    <ImageView
+        android:id="@+id/bannerRect"
+        android:layout_width="445dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="614dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mapImg"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/bgRect"
+        android:layout_width="457dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mapImg"
+        app:srcCompat="@drawable/rectangle" />
 
     <TextView
         android:id="@+id/schoolLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="522dp"
         android:fontFamily="sans-serif-black"
         android:text="Florida Polytechnic University"
         android:textColor="#37BFC9"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="184dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/mapImg" />
 
     <ImageView
         android:id="@+id/logoImg"
         android:layout_width="83dp"
         android:layout_height="96dp"
-        app:srcCompat="@drawable/Logo"
-        tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="34dp" />
+        android:layout_marginStart="342dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bannerRect"
+        app:layout_constraintEnd_toEndOf="@+id/bannerRect"
+        app:layout_constraintStart_toStartOf="@+id/bannerRect"
+        app:layout_constraintTop_toTopOf="@+id/bannerRect"
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/finderLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="17dp"
         android:fontFamily="sans-serif-black"
         android:text="Finder"
         android:textColor="#F3FFFF"
         android:textSize="45sp"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="53dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/bannerRect"
+        app:layout_constraintEnd_toEndOf="@+id/bannerRect"
+        app:layout_constraintStart_toStartOf="@+id/bannerRect"
+        app:layout_constraintTop_toTopOf="@+id/bannerRect" />
 
     <TextView
         android:id="@+id/spotLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="17dp"
         android:fontFamily="sans-serif-medium"
         android:text="Spot"
         android:textColor="#F3FFFF"
         android:textSize="45sp"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="53dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/bannerRect"
+        app:layout_constraintEnd_toEndOf="@+id/bannerRect"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bannerRect"
+        app:layout_constraintTop_toTopOf="@+id/bannerRect"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/lot5"
         android:layout_width="38dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="424dp" />
+        android:layout_marginTop="433dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fiveNum"
+        app:layout_constraintEnd_toEndOf="@+id/fiveNum"
+        app:layout_constraintStart_toStartOf="@+id/fiveNum"
+        app:layout_constraintTop_toTopOf="@+id/mapImg"
+        app:srcCompat="@drawable/circle" />
 
     <ImageView
         android:id="@+id/lot3"
         android:layout_width="38dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="424dp" />
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="434dp"
+        app:layout_constraintBottom_toBottomOf="@+id/threeNum"
+        app:layout_constraintEnd_toEndOf="@+id/threeNum"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/mapImg"
+        app:srcCompat="@drawable/circle" />
 
     <ImageView
         android:id="@+id/lot10"
         android:layout_width="38dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:layout_marginStart="126dp"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="420dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/tenNum"
+        app:srcCompat="@drawable/circle" />
 
     <ImageView
         android:id="@+id/lot4"
         android:layout_width="38dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:layout_marginStart="299dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="420dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/fourNum"
+        app:srcCompat="@drawable/circle" />
 
     <ImageView
         android:id="@+id/lot6"
         android:layout_width="38dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:layout_marginStart="243dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="420dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/sixNum"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/circle" />
 
     <ImageView
         android:id="@+id/lot8"
         android:layout_width="38dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="289dp" />
-
-    <TextView
-        android:id="@+id/fourNum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="4"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="289dp" />
-
-    <TextView
-        android:id="@+id/sixNum"
-        android:layout_width="42dp"
-        android:layout_height="35dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
-        android:text="6"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="289dp" />
-
-    <TextView
-        android:id="@+id/tenNum"
-        android:layout_width="47dp"
-        android:layout_height="35dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
-        android:text="10"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="289dp" />
-
-    <TextView
-        android:id="@+id/eightNum"
-        android:layout_width="40dp"
-        android:layout_height="33dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
-        android:text="8"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="420dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/eightNum"
+        app:layout_constraintTop_toTopOf="@+id/eightNum"
+        app:srcCompat="@drawable/circle" />
 
     <TextView
         android:id="@+id/fiveNum"
         android:layout_width="40dp"
         android:layout_height="33dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginBottom="288dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="5"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/mapImg" />
+
+    <TextView
+        android:id="@+id/sixNum"
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="421dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/mapImg"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/fourNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="425dp"
+        android:fontFamily="sans-serif-black"
+        android:text="4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/lot4"
+        app:layout_constraintStart_toStartOf="@+id/lot4"
+        app:layout_constraintTop_toTopOf="@+id/mapImg" />
+
+    <TextView
+        android:id="@+id/tenNum"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="422dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/mapImg" />
+
+    <TextView
+        android:id="@+id/eightNum"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="424dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/mapImg" />
 
     <TextView
         android:id="@+id/threeNum"
         android:layout_width="37dp"
         android:layout_height="34dp"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="287dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="3"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/mapImg"
+        app:layout_constraintEnd_toEndOf="@+id/mapImg"
+        app:layout_constraintStart_toStartOf="@+id/mapImg"
+        app:layout_constraintTop_toTopOf="@+id/mapImg"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/bgNoAvail"
         android:layout_width="344dp"
         android:layout_height="52dp"
-        app:srcCompat="@drawable/bgrect"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="498dp" />
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="133dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgRect"
+        app:layout_constraintEnd_toEndOf="@+id/bgRect"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bgRect"
+        app:layout_constraintTop_toTopOf="@+id/bgRect"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bgrect" />
 
     <ImageView
         android:id="@+id/bgLimAvail"
         android:layout_width="344dp"
         android:layout_height="52dp"
-        app:srcCompat="@drawable/bgrect"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="564dp" />
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="69dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgRect"
+        app:layout_constraintEnd_toEndOf="@+id/bgRect"
+        app:layout_constraintStart_toStartOf="@+id/bgRect"
+        app:layout_constraintTop_toTopOf="@+id/bgRect"
+        app:srcCompat="@drawable/bgrect" />
 
     <ImageView
         android:id="@+id/bgGoodAvail"
         android:layout_width="344dp"
         android:layout_height="52dp"
-        app:srcCompat="@drawable/bgrect"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="625dp" />
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgRect"
+        app:layout_constraintEnd_toEndOf="@+id/bgRect"
+        app:layout_constraintStart_toStartOf="@+id/bgRect"
+        app:layout_constraintTop_toTopOf="@+id/bgRect"
+        app:srcCompat="@drawable/bgrect" />
 
     <ImageView
         android:id="@+id/noAvailCir"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="507dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgNoAvail"
+        app:layout_constraintEnd_toEndOf="@+id/bgNoAvail"
+        app:layout_constraintStart_toStartOf="@+id/bgNoAvail"
+        app:layout_constraintTop_toTopOf="@+id/bgNoAvail"
+        app:srcCompat="@drawable/circle" />
 
     <ImageView
         android:id="@+id/limAvailCir"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="570dp" />
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgLimAvail"
+        app:layout_constraintEnd_toEndOf="@+id/bgLimAvail"
+        app:layout_constraintStart_toStartOf="@+id/bgLimAvail"
+        app:layout_constraintTop_toTopOf="@+id/bgLimAvail"
+        app:srcCompat="@drawable/circle" />
 
     <ImageView
         android:id="@+id/goodAvailCir"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="632dp" />
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgGoodAvail"
+        app:layout_constraintEnd_toEndOf="@+id/bgGoodAvail"
+        app:layout_constraintStart_toStartOf="@+id/bgGoodAvail"
+        app:layout_constraintTop_toTopOf="@+id/bgGoodAvail"
+        app:srcCompat="@drawable/circle" />
 
     <TextView
-        android:id="@+id/noAvailLabel"
+        android:id="@+id/goodAvailLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="7dp"
         android:fontFamily="sans-serif-medium"
         android:text="Good Availability"
         android:textColor="#F3FFFF"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="632dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/bgGoodAvail"
+        app:layout_constraintEnd_toEndOf="@+id/bgGoodAvail"
+        app:layout_constraintStart_toStartOf="@+id/bgGoodAvail"
+        app:layout_constraintTop_toTopOf="@+id/bgGoodAvail" />
 
     <TextView
         android:id="@+id/noAvailLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="7dp"
         android:fontFamily="sans-serif-medium"
         android:text="No Availability"
         android:textColor="#F3FFFF"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="507dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/bgNoAvail"
+        app:layout_constraintEnd_toEndOf="@+id/bgNoAvail"
+        app:layout_constraintStart_toStartOf="@+id/bgNoAvail"
+        app:layout_constraintTop_toTopOf="@+id/bgNoAvail" />
 
     <TextView
-        android:id="@+id/noAvailLabel"
+        android:id="@+id/limAvailLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="sans-serif-medium"
         android:text="Limited Availability"
         android:textColor="#F3FFFF"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="570dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/bgLimAvail"
+        app:layout_constraintEnd_toEndOf="@+id/bgLimAvail"
+        app:layout_constraintStart_toStartOf="@+id/bgLimAvail"
+        app:layout_constraintTop_toTopOf="@+id/bgLimAvail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
