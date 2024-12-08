@@ -88,14 +88,14 @@
 
     <TextView
         android:id="@+id/lotLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="179dp"
+        android:layout_height="43dp"
         android:layout_marginStart="27dp"
         android:layout_marginBottom="480dp"
         android:fontFamily="sans-serif-medium"
         android:text="Lot Number"
         android:textColor="#37BFC9"
-        android:textSize="34sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/lineLabel"
         app:layout_constraintHorizontal_bias="0.0"
@@ -105,11 +105,52 @@
         android:id="@+id/lineLabel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="496dp"
         android:text="__________________________"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerImg" />
+
+    <HorizontalScrollView
+        android:layout_width="400dp"
+        android:layout_height="339dp"
+        android:layout_marginBottom="1dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/bgBannerImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lotLabel">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/lotImg1"
+                android:layout_width="357dp"
+                android:layout_height="339dp"
+                android:layout_marginStart="24dp"
+                android:contentDescription="Swipe to view parking lot."
+                android:src="@drawable/parking"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/lotImg2"
+                android:layout_width="357dp"
+                android:layout_height="339dp"
+                android:layout_marginStart="108dp"
+                android:contentDescription="Swipe to view parking lot."
+                android:paddingRight="30dp"
+                android:src="@drawable/parking"
+                app:layout_constraintStart_toEndOf="@id/lotImg1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
